@@ -1,0 +1,24 @@
+Multithreading:
+Multithreading is a way to achieve Multitasking.
+There are two types:
+i) Process based multi tasking:
+When each independent task is a seperate process then it is called a Process based multi tasking.
+eg: downloading a file from browser and watching a movie are 2 seperate independet tasks.
+
+ii) Thread based multi tasking:
+In thread based multitasking same program contains several tasks means threads and each thread is seperate independent part of the program and all the task executing simultaneously.
+eg: suppose there are 2000 lines of code in a program, first 1000 lines of code perform seperate task while other 1000 lines seperate, hence both can run simultaneously in a code.
+
+Applications of Multithreading:
+1. Development of video games
+2. Development of animation
+3. In multimedia graphics
+4. Development of web and server.
+
+When we should go for multithreading?
+Whenever we have independent task in our program that means there is no dependency between the tasks then there is no need to execute that one in order wise.
+Every program is an independent part.
+
+Main Thread:
+Every python program consists of a default thread called as Main thread.
+
