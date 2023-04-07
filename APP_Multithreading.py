@@ -15,6 +15,7 @@ for i in range(1,11):
   time.sleep(2)
   print("This is: Main thread",threading.current_thread().getName())
 
+# when we call start() method then thread will be created and automatically run() method will be called(Developer recommended way)
 #thread creation with extension of thread class(Inheritance)
 from threading import*
 import time
