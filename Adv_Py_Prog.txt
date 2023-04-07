@@ -42,3 +42,14 @@ How to implement synchronization in Python?
 1.Lock
 2.RLock
 3.Semaphore
+
+
+LOCK CONCEPT FOR SYNCHRONIZATION:
+Threading module provide the lock concept and let's see how to create Lock object
+eg: obj=Lock()
+
+At a time only one thread held by lock object at the same time suppose if any other thread requires same Lock so this thread will have to wait until the previous thread release the lock
+eg: queue in petrol pump, telephone booth
+
+The acquire() method helps to acquire the Lock.
+The release() method helps to release the Lock.
