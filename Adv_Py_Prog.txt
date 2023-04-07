@@ -30,3 +30,5 @@ There are two types od thread
 
 The thread which is running in background are called Daemon thread
 It provides support to non daemon thread i.e. Main thread
+
+Whenever main thread runs into low memory, immpediately PVM(Python interpreter) runs Garbage Collector to f=destroy useless objects and to provide free memory, so that Main Thread can continue its execution without having sny memory problems.
