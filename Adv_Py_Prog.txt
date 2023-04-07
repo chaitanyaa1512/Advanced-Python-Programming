@@ -22,3 +22,11 @@ Every program is an independent part.
 Main Thread:
 Every python program consists of a default thread called as Main thread.
 
+
+Daemon Threads
+There are two types od thread
+1. Daemon Thread
+2.Non daemon thread
+
+The thread which is running in background are called Daemon thread
+It provides support to non daemon thread i.e. Main thread
