@@ -34,7 +34,7 @@ It provides support to non daemon thread i.e. Main thread
 Whenever main thread runs into low memory, immpediately PVM(Python interpreter) runs Garbage Collector to f=destroy useless objects and to provide free memory, so that Main Thread can continue its execution without having any memory problems.
 
 SYNCHRONIZATION:
-In multi threading process when multiple threads/processes execute at the same time there might be a chnace that multiple threads execute same statement, hence data inconsistency will happen so to overcome inconsistency, Synchronization is important in Python.
+In multi threading process when multiple threads/processes execute at the same time there might be a chance that multiple threads execute same statement, hence data inconsistency will happen so to overcome inconsistency, Synchronization is important in Python.
 
 
 APPLICATION OF PYTHON SYNCHRONIZATION: Online Reservation System
