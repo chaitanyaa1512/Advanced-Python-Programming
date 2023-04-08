@@ -53,3 +53,16 @@ eg: queue in petrol pump, telephone booth
 
 The acquire() method helps to acquire the Lock.
 The release() method helps to release the Lock.
+
+Number of tasks waiting to acquire a Lock in a line is: Thread pool.
+
+LOCK vs RLOCK:
+i) Lock:
+a)Same thread cannot acquire lock object multiple times
+b)Recursive function and nested call not possible
+c)Responsible for only lock & unlock.
+
+ii) Rlock:
+a)Same thread can acquire lock object multiple times
+b)Rescursive Function and nested call access possible
+c)Rlock handles all responsibilty.
